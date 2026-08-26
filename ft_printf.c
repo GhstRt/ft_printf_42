@@ -6,12 +6,11 @@
 /*   By: yuozturk@student.42istanbul.com.tr         +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/08/20 18:49:19 by yuozturk          #+#    #+#             */
-/*   Updated: 2026/08/26 17:09:42 by yuozturk         ###   ########.fr       */
+/*   Updated: 2026/08/26 17:55:07 by yuozturk         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
-#include <stdio.h>
 
 static int	format_check(const char *str, va_list args)
 {
